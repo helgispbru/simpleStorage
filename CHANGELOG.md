@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.1a 2022-03-09
+
+  * Add extracheck on init
+
 ## v0.2.1 2016-02-06
 
   * Added new method `hasKey(key)`

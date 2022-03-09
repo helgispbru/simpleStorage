@@ -8,7 +8,7 @@
 
     if (typeof define === 'function' && define.amd) {
         define(factory);
-    } else if (typeof exports !== 'undefined') {
+    } else if (typeof exports === 'object' && typeof module !== 'undefined') {
         module.exports = factory();
     } else {
         root.simpleStorage = factory();
@@ -18,7 +18,7 @@
 
     'use strict';
 
-    var VERSION = '0.2.1';
+    var VERSION = '0.2.1a';
 
     /* This is the object, that holds the cached values */
     var _storage = false;

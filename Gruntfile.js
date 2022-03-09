@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '/*! simpleStorage v<%= pkg.version %>, Unlicense <%= grunt.template.today("yyyy") %>. https://github.com/andris9/simpleStorage */\n'
+                banner: '/*! simpleStorage v<%= pkg.version %>, Unlicense <%= grunt.template.today("yyyy") %>. https://github.com/helgispbru/simpleStorage */\n'
             },
             build: {
                 src: 'simpleStorage.js',
